@@ -30,9 +30,9 @@ def time_to_seconds(time):
 ## Commands --------------------------------
 @bot.on_message(filters.command(['start']))
 def start(client, message):
-   Yᴇᴀɢᴇʀɪsᴛ Bᴏᴛs = f'hi'
+   uday = f'hi'
     message.reply_text(
-        text=Yᴇᴀɢᴇʀɪsᴛ Bᴏᴛs , 
+        text=uday , 
         quote=False,
         reply_markup=InlineKeyboardMarkup(
             [
